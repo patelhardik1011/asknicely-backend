@@ -101,7 +101,7 @@ RUN apt-get update \
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 # Set working directory
-WORKDIR /var/www
+WORKDIR /var/www/html
 
 # Create system user to run Composer and Artisan Commands
 #ADD . /var/www
