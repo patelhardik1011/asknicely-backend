@@ -4,7 +4,7 @@ services:
   #PHP Service
   php-app:
     build:
-      context: ./Docker/
+      context: ./
       dockerfile: Dockerfile
     container_name: php-container
     environment:
