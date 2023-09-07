@@ -33,9 +33,9 @@ To run this project please follow below steps:
 
 6. To access the project you will need to type following URL:
    ````
-   http://127.0.0.1:8080
+   http://127.0.0.1:8000
    or
-   http://YOUR_IP:8080
+   http://YOUR_IP:8000
 
 Here I have used sample CSV file to be stored in Storage folder and reading data from that CSV file.
 
